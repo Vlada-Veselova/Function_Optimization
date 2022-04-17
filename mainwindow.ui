@@ -115,12 +115,12 @@
     </property>
     <item>
      <property name="text">
-      <string>Booth function</string>
+      <string>Himmelblau function</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Rastrigin function</string>
+      <string>Matyas function</string>
      </property>
     </item>
    </widget>

@@ -9,8 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::on_proceed_clicked() {
     switch(ui->function->currentIndex()){
-        case 0: _func = new Booth; break;
-        default :_func = new Rastrigin(2); break;
+        case 0: _func = new Himmelblau; break;
+        default :_func = new Matyas; break;
     }
     _step_size = ui->step_size->value();
     _n_iter = ui->max_steps->value();
