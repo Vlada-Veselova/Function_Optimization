@@ -38,3 +38,19 @@ public:
     std::vector<double> gradient(const std::vector<double> &x) override;
     ~Booth() {};
 };
+
+class Matyas: public Function {
+public:
+    Matyas() { _dim = 2; };
+    double func_value(const std::vector<double> &x) override;
+    std::vector<double> gradient(const std::vector<double> &x) override;
+    ~Matyas() {};
+};
+
+class Himmelblau: public Function {
+public:
+    Himmelblau() { _dim = 2; };
+    double func_value(const std::vector<double> &x) override;
+    std::vector<double> gradient(const std::vector<double> &x) override;
+    ~Himmelblau() {};
+};
