@@ -123,6 +123,16 @@
       <string>Matyas function</string>
      </property>
     </item>
+    <item>
+     <property name="text">
+      <string>Sphere function</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rastrigin function</string>
+     </property>
+    </item>
    </widget>
    <widget class="QComboBox" name="method">
     <property name="geometry">
