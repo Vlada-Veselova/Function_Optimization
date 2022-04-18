@@ -78,7 +78,7 @@ int main() {
     int n_iter = (opt->GetIterations());
     std::cout << "N iteration: " << n_iter << "\nMin point: ";
     for (auto i : ans) {
-        std::cout << ans[i] << " ";
+        std::cout << i << " ";
     }
     std::cout << "\nMin value: " << func->func_value(ans);
     std::cout << "\n";
